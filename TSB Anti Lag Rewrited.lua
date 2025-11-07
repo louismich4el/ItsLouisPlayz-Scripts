@@ -1,7 +1,7 @@
 getgenv().Settings = {
-    Remove_Grass,
-    Remove_Trees,
-    Remove_Walls,
+    Remove_Grass = false
+    Remove_Trees = false
+    Remove_Walls = false
 }
 
 workspace.Thrown.ChildAdded:Connect(function(v)
@@ -48,8 +48,8 @@ for i, v in game:GetDescendants() do
 end
 
 game.StarterGui:SetCore("SendNotification",{
-    Title = "Rewrited Anti Lag Loaded! If The Debris Isnt Getting Destroyed It'll Be Soon Sometime.";
-    Text = "Script Made By ItsLouisPlayz On Youtube :)";
+    Title = "Anti Lag";
+    Text = "Rewrited Anti Lag Loaded! If The Debris Isnt Getting Destroyed It'll Be Soon Sometime.";
     Icon = "";
     Duration = 3;
 })
