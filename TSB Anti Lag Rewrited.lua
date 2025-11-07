@@ -51,7 +51,7 @@ game.StarterGui:SetCore("SendNotification",{
     Title = "Anti Lag";
     Text = "Rewrited Anti Lag Loaded! If The Debris Isnt \nGetting Destroyed It'll Be Soon Sometime.";
     Icon = "";
-    Duration = 3;
+    Duration = 5;
 })
 
 warn("1ml3g1t was here")
