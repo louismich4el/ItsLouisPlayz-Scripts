@@ -49,7 +49,7 @@ end
 
 game.StarterGui:SetCore("SendNotification",{
     Title = "Anti Lag";
-    Text = "Rewrited Anti Lag Loaded! If The Debris Isnt Getting Destroyed It'll Be Soon Sometime.";
+    Text = "Rewrited Anti Lag Loaded! If The Debris Isnt \nGetting Destroyed It'll Be Soon Sometime.";
     Icon = "";
     Duration = 3;
 })
