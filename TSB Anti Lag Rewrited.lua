@@ -1,7 +1,7 @@
 getgenv().Settings = {
-    Remove_Grass = false,
-    Remove_Trees = false,
-    Remove_Walls = false,
+    Remove_Grass,
+    Remove_Trees,
+    Remove_Walls,
 }
 
 workspace.Thrown.ChildAdded:Connect(function(v)
